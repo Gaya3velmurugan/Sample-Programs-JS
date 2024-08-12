@@ -1,0 +1,13 @@
+function evennumber(arr)
+{
+    let i;
+    let count = 0;
+    for(i = 0; i < arr.length; i++)
+    {
+        if(arr[i]%2==0)
+        count = count +1
+    }
+    return count
+}
+let arr = [1,3,5,70];
+console.log("even num is", evennumber(arr));
