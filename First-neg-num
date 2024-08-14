@@ -1,0 +1,10 @@
+function Gayathri (arr){
+    let i;
+    for (i=0; i < arr.length;i++){
+        if (arr[i] < 0)
+        return arr[i]
+    }
+}
+let arr=[2,-3,-4];
+console.log("first neg num is" , Gayathri(arr));
+
