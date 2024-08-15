@@ -1,0 +1,13 @@
+
+
+function Gayathri(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 == 0) {
+            return arr[i]; 
+        }
+    }
+    return null; 
+}
+
+let arr = [50, 2, 4, 55];
+console.log("First even number is", Gayathri(arr));
