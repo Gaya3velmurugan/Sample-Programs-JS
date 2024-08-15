@@ -1,0 +1,15 @@
+function Gayathri(arr) {
+    let i;
+    let element = 20;
+    for (i=0;i<arr.length;i++) {
+        if(arr[0] > element)
+        return arr[0];
+    }
+    return element;
+}
+let arr=[40,20,40];
+console.log(Gayathri(arr));
+
+
+
+
