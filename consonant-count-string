@@ -1,0 +1,17 @@
+function Gayathri(arr) {
+    let count = 0;
+    for (let i = 0; i < arr.length; i++) {
+        let word = arr[i].toLowerCase(); 
+        for (let j = 0; j < word.length; j++) {
+            if (word[j] != 'a' && word[j] != 'e' && word[j] != 'i' && word[j] != 'o' && word[j] != 'u') {
+                count++;
+            }
+        }
+    }
+    return count;
+}
+
+let arr = ["Gayathri"];
+console.log("consonants count is", Gayathri(arr));
+
+
