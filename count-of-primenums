@@ -1,0 +1,23 @@
+const arr = [11, 30, 11];
+
+function isPrime(num) {
+  if (num <= 1) return false;
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      return false; 
+    }
+  }
+  return true;
+}
+
+function Gayathri(arr) {
+  let count = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (isPrime(arr[i])) {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(Gayathri(arr));
