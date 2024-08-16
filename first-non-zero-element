@@ -1,0 +1,21 @@
+
+function Gayathri(arr){
+    let i;
+    for(i=0;i<arr.length;i++){
+        if(arr[i] !=0 ){
+            return arr[i]
+        }
+    }
+    return null
+}
+let arr =[0,3,4,5];
+console.log("first non-zero element in array is", Gayathri(arr));
+
+
+
+
+
+
+
+
+ 
